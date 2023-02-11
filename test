@@ -1,4 +1,4 @@
-getgenv().framework = {}
+local framework = {}
 
 do
     function framework:CustomGetObject(XML)
