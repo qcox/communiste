@@ -1,9 +1,0 @@
-local framework = {}
-
-do
-    function framework:CustomGetObject(XML)
-      return game.UGCValidationService:FetchAssetWithFormat(XML,'')
-    end
-
-    return framework
-end
